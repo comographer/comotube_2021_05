@@ -24,7 +24,7 @@
 ## Technologies Used
 
 - NodeJS - version 14.16.0
-- Express - version
+- Express - version 4.17.1
 - MongoDB - version
 
 ## Features
