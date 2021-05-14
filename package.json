@@ -9,7 +9,7 @@
   "scripts": {
     "win": "node index.js"
   },
-  "author": "Geunmo Kim<kimgeunmo@gmail.com>",
+  "author": "Geunmo Kim <kimgeunmo@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/comographer/comotube_2021_05/issues"
