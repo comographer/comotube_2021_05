@@ -1,0 +1,16 @@
+{
+  "name": "comotube",
+  "version": "1.0.0",
+  "description": "YouTube clone coding project",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comographer/comotube_2021_05.git"
+  },
+  "author": "Geunmo Kim<kimgeunmo@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/comographer/comotube_2021_05/issues"
+  },
+  "homepage": "https://github.com/comographer/comotube_2021_05#readme"
+}
