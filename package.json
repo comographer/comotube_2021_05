@@ -17,5 +17,9 @@
   "homepage": "https://github.com/comographer/comotube_2021_05#readme",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.2",
+    "@babel/preset-env": "^7.14.2"
   }
 }

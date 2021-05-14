@@ -26,6 +26,7 @@
 - NodeJS - version 14.16.0
 - Express - version 4.17.1
 - MongoDB - version
+- Babel - version 7.14.2
 
 ## Features
 
