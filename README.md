@@ -27,6 +27,7 @@
 - Express - version 4.17.1
 - MongoDB - version
 - Babel - version 7.14.2
+- Nodemon - version 2.0.7
 
 ## Features
 

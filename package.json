@@ -7,7 +7,7 @@
     "url": "git+https://github.com/comographer/comotube_2021_05.git"
   },
   "scripts": {
-    "win": "node index.js"
+    "dev": "nodemon --exec babel-node index.js"
   },
   "author": "Geunmo Kim <kimgeunmo@gmail.com>",
   "license": "MIT",
@@ -20,6 +20,8 @@
   },
   "devDependencies": {
     "@babel/core": "^7.14.2",
-    "@babel/preset-env": "^7.14.2"
+    "@babel/node": "^7.14.2",
+    "@babel/preset-env": "^7.14.2",
+    "nodemon": "^2.0.7"
   }
 }
