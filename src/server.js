@@ -1,34 +1,22 @@
 import express from "express";
+import morgan from "morgan";
 
 const PORT = 4000;
 
 const app = express();
-
-const logger = (req, res, next) => {
-  console.log(`${req.method} ${req.url}`);
-  next();
-};
-
-const privateMiddleware = (req, res, next) => {
-  const url = req.url;
-  if (url === "/protected") {
-    return res.send("<h1>Not allowed</h1>");
-  }
-  next();
-};
+const logger = morgan("dev");
 
 const handleHome = (req, res) => {
   return res.send("I love middlewares");
 };
 
-const handleProtected = (req, res) => {
+const login = (req, res) => {
   return res.send("Welcome to the private lounge.");
 };
 
 app.use(logger);
-app.use(privateMiddleware);
 app.get("/", handleHome);
-app.get("/protected", handleProtected);
+app.get("/login", login);
 
 const handleListening = () =>
   console.log(`✅ Server listening on port http://localhost:${PORT} 🚀`);
@@ -51,3 +39,6 @@ app.listen(PORT, handleListening);
 
 // app.use lets you create global middlewares
 // app.use should be placed before app.get
+
+// morgan is request logger middleware for Node.js
+// morgan("dev") get METHOD / PATH / STATUS CODE / RESPONSE TIME

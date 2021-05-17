@@ -9,6 +9,7 @@
 
 - [General Info](#general-information)
 - [Technologies Used](#technologies-used)
+- [DevDependencies](#devdependencies)
 - [Features](#features)
 - [Screenshots](#screenshots)
 - [Project Status](#project-status)
@@ -26,8 +27,12 @@
 - NodeJS - version 14.16.0
 - Express - version 4.17.1
 - MongoDB - version
+
+## DevDependencies
+
 - Babel - version 7.14.2
 - Nodemon - version 2.0.7
+- Morgan - version 1.10.0
 
 ## Features
 
