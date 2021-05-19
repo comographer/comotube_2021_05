@@ -42,3 +42,5 @@ app.listen(PORT, handleListening);
 
 // morgan is request logger middleware for Node.js
 // morgan("dev") get METHOD / PATH / STATUS CODE / RESPONSE TIME
+
+// router = mini application ex) /videos/watch/275938
