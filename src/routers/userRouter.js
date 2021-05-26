@@ -9,3 +9,5 @@ userRouter.get("/remove", remove);
 userRouter.get(":id", see);
 
 export default userRouter;
+
+// : is parameter
