@@ -27,6 +27,7 @@
 - NodeJS - version 14.16.0
 - Express - version 4.17.1
 - MongoDB - version T.B.D
+- Pug - version 3.0.2
 
 ## DevDependencies
 

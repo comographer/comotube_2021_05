@@ -10,6 +10,8 @@ const app = express();
 const logger = morgan("dev");
 app.use(logger);
 
+app.set("view engne", "pug");
+app.use(logger);
 app.use("/", globalRouter);
 app.use("/videos", videoRouter);
 app.use("/users", userRouter);
@@ -40,3 +42,5 @@ app.listen(PORT, handleListening);
 // morgan("dev") get METHOD / PATH / STATUS CODE / RESPONSE TIME
 
 // router = mini application ex) /videos/watch/275938
+
+// pug is a template engine
