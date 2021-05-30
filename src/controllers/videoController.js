@@ -1,10 +1,32 @@
-const fakeUser = {
-  username: "Como",
-  loggedIn: true,
+export const trending = (req, res) => {
+  const videos = [
+    {
+      title: "First Video",
+      rating: 5,
+      comments: 2,
+      createdAt: "2 minutes ago",
+      views: 123,
+      id: 1,
+    },
+    {
+      title: "Second Video",
+      rating: 5,
+      comments: 2,
+      createdAt: "46 minutes ago",
+      views: 5943,
+      id: 1,
+    },
+    {
+      title: "Third Video",
+      rating: 5,
+      comments: 2,
+      createdAt: "59 minutes ago",
+      views: 592,
+      id: 1,
+    },
+  ];
+  return res.render("home", { pageTitle: "Home", videos });
 };
-
-export const trending = (req, res) =>
-  res.render("home", { pageTitle: "Home", fakeUser });
 export const see = (req, res) => {
   return res.render("watch", { pageTitle: "Watch" });
 };
