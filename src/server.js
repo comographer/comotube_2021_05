@@ -46,3 +46,5 @@ app.listen(PORT, handleListening);
 // router = mini application ex) /videos/watch/275938
 
 // pug is a template engine
+
+// CRUD : CREATE READ UPDATE DELETE

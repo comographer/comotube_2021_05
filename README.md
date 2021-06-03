@@ -28,6 +28,7 @@
 - Express - version 4.17.1
 - MongoDB - version T.B.D
 - Pug - version 3.0.2
+- Mongoose - version 5.12.12
 
 ## DevDependencies
 
