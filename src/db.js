@@ -1,5 +1,4 @@
 import mongoose from "mongoose";
-import "./models/Video";
 
 mongoose.connect("mongodb://127.0.0.1:27017/comotube", {
   useNewUrlParser: true,
