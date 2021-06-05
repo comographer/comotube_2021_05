@@ -26,7 +26,7 @@
 
 - NodeJS - version 14.16.0
 - Express - version 4.17.1
-- MongoDB - version T.B.D
+- MongoDB - version 3.6.3
 - Pug - version 3.0.2
 - Mongoose - version 5.12.12
 
