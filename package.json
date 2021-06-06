@@ -7,7 +7,7 @@
     "url": "git+https://github.com/comographer/comotube_2021_05.git"
   },
   "scripts": {
-    "dev": "nodemon --exec babel-node src/server.js"
+    "dev": "nodemon --exec babel-node src/init.js"
   },
   "author": "Geunmo Kim <kimgeunmo@gmail.com>",
   "license": "MIT",
