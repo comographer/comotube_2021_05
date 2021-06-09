@@ -29,6 +29,7 @@
 - MongoDB - version 3.6.3
 - Pug - version 3.0.2
 - Mongoose - version 5.12.12
+- bcrypt - version 5.0.1
 
 ## DevDependencies
 
