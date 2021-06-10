@@ -30,6 +30,7 @@
 - Pug - version 3.0.2
 - Mongoose - version 5.12.12
 - bcrypt - version 5.0.1
+- express-session: version 1.17.2
 
 ## DevDependencies
 
