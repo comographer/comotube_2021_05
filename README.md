@@ -32,6 +32,7 @@
 - bcrypt - version 5.0.1
 - express-session: version 1.17.2
 - connect-mongo : version 4.4.1
+- dotenv : verson 10.0.0
 
 ## DevDependencies
 
