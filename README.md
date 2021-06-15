@@ -33,6 +33,7 @@
 - express-session: version 1.17.2
 - connect-mongo : version 4.4.1
 - dotenv : verson 10.0.0
+- node-fetch : version 2.6.1
 
 ## DevDependencies
 
