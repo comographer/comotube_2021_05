@@ -146,16 +146,17 @@ export const getEdit = (req, res) => {
 export const postEdit = async (req, res) => {
   const {
     session: {
-      user: { _id, email: sessionEmail, username: sessionUsername },
+      user: { _id, email: sessionEmail, username: sessionUsername, avatarUrl },
     },
     body: { name, email, username, location },
+    file,
   } = req;
   if (sessionEmail !== email) {
     const emailExists = await User.exists({ email });
     if (emailExists) {
       const errorMessage = "The email already exists";
       return res.status(400).render("edit-profile", {
-        pageTitle: "Edit profile",
+        pageTitle: "Edit Profile",
         errorMessage,
       });
     }
@@ -165,7 +166,7 @@ export const postEdit = async (req, res) => {
     if (usernameExists) {
       const errorMessage = "The username already exists";
       return res.status(400).render("edit-profile", {
-        pageTitle: "Edit profile",
+        pageTitle: "Edit Profile",
         errorMessage,
       });
     }
@@ -173,6 +174,7 @@ export const postEdit = async (req, res) => {
   const updatedUser = await User.findByIdAndUpdate(
     _id,
     {
+      avatarUrl: file ? file.path : avatarUrl,
       name,
       email,
       username,
