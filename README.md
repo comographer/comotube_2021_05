@@ -41,6 +41,7 @@
 - Babel - version 7.14.2
 - Nodemon - version 2.0.7
 - Morgan - version 1.10.0
+- Webpack-cli - version 4.7.2
 
 ## Features
 
