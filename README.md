@@ -42,6 +42,13 @@
 - Nodemon - version 2.0.7
 - Morgan - version 1.10.0
 - Webpack-cli - version 4.7.2
+- Webpack - version 5.39.1
+- babel-loader - version 8.2.2
+- css-loader - version 5.2.6
+- mini-css-extract-plugin - version 1.6.0
+- sass - version 1.35.1
+- sass-loader - version 12.1.0
+- style-loader - version 2.0.0
 
 ## Features
 
